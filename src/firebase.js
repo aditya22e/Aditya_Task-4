@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCBRy1mm3EsCN1TtrW-_oRbksOPkhVWdX4",
-    authDomain: "ecell-task-b3c1f.firebaseapp.com",
-    projectId: "ecell-task-b3c1f",
-    storageBucket: "ecell-task-b3c1f.firebasestorage.app",
-    messagingSenderId: "273891517957",
-    appId: "1:273891517957:web:71122fdf812f367c10de6c",
-    measurementId: "G-M81VP5F5V1"
+    apiKey: "MY_API_KEY",
+    authDomain: "MY_AUTH_DOMAIN",
+    projectId: "MY_P_ID",
+    storageBucket: "MY_BUCKET",
+    messagingSenderId: "MY_S_ID",
+    appId: "MY_A_ID",
+    measurementId: "MY_M_ID"
 };
 
 const app = initializeApp(firebaseConfig);
