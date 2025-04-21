@@ -1,0 +1,148 @@
+.register-form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 247, 255, 0.5);
+  }
+  
+  .register-form h2 {
+    font-size: 2rem;
+    color: #ff00ff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 40px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #00f7ff;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background: #1b263b;
+    border: 1px solid #00f7ff;
+    border-radius: 5px;
+    color: #e0e0e0;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .checkbox-group label {
+    font-size: 1rem;
+    color: #e0e0e0;
+  }
+  
+  .checkbox-group a {
+    color: #ff00ff;
+    text-decoration: none;
+  }
+  
+  .checkbox-group a:hover {
+    color: #00f7ff;
+  }
+  
+  .error {
+    display: block;
+    color: #ff5555;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background: #ff00ff;
+    border: none;
+    border-radius: 5px;
+    color: #0d1b2a;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .register-form button:hover {
+    background: #00f7ff;
+    transform: scale(1.02);
+  }
+  
+  .success-message {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .success-message h2 {
+    font-size: 2rem;
+    color: #00f7ff;
+    text-shadow: 0 0 10px rgba(0, 247, 255, 0.8);
+    margin-bottom: 20px;
+  }
+  
+  .success-message p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff00ff;
+    color: #0d1b2a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .back-link:hover {
+    background: #00f7ff;
+  }
+  
+  @media (max-width: 768px) {
+    .register-form {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .register-form h2 {
+      font-size: 1.8rem;
+    }
+  
+    .form-group label {
+      font-size: 1rem;
+    }
+  
+    .form-group input,
+    .form-group select {
+      font-size: 0.9rem;
+    }
+  
+    .register-form button {
+      font-size: 1rem;
+    }
+  }
